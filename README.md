@@ -1,6 +1,6 @@
 # HanamiTestApp
 
-This is a Hanami 2 application.
+This is a [Hanami 2](https://github.com/hanami/hanami/tree/unstable) application.
 
 ## Docker development
 
