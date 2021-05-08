@@ -34,10 +34,8 @@ module Test
           begin
             case type
             when :main
-              require "main/entities"
               Main::Entities
             else
-              require "hanami_test_app/entities"
               HanamiTestApp::Entities
             end
           end
