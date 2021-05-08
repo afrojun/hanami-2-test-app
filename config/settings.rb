@@ -1,18 +1,18 @@
 # frozen_string_literal: true
 
-require "app_prototype/types"
+require "hanami_test_app/types"
 
 Hanami.application.settings do
   # Framework
-  setting :log_to_stdout, AppPrototype::Types::Params::Bool.optional.default(false)
+  setting :log_to_stdout, HanamiTestApp::Types::Params::Bool.optional.default(false)
 
   # Database
-  setting :database_url, AppPrototype::Types::String
+  setting :database_url, HanamiTestApp::Types::String
 
   # Application
-  setting :session_secret, AppPrototype::Types::String
+  setting :session_secret, HanamiTestApp::Types::String
 
   # Assets
-  setting :precompiled_assets, AppPrototype::Types::Params::Bool.optional.default(false)
-  setting :assets_server_url, AppPrototype::Types::String.optional.default("http://localhost:8080")
+  setting :precompiled_assets, HanamiTestApp::Types::Params::Bool.optional.default(false)
+  setting :assets_server_url, HanamiTestApp::Types::String.optional.default("http://localhost:8080")
 end

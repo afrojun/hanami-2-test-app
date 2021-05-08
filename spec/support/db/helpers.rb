@@ -37,8 +37,8 @@ module Test
               require "main/entities"
               Main::Entities
             else
-              require "app_prototype/entities"
-              AppPrototype::Entities
+              require "hanami_test_app/entities"
+              HanamiTestApp::Entities
             end
           end
       end

@@ -3,7 +3,7 @@
 
 require "transproc"
 
-module AppPrototype
+module HanamiTestApp
   module Functions
     extend Transproc::Registry
 
