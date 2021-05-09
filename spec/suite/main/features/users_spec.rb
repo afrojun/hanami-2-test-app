@@ -4,6 +4,6 @@ RSpec.feature "Loading a user's page", :web do
 
     visit "/users/1"
 
-    expect(page).to have_content "You are Jane"
+    expect(page).to have_content "Welcome Jane Doe"
   end
 end
